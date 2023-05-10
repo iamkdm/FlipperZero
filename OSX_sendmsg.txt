@@ -1,0 +1,29 @@
+ID 1234:5678 Apple:Keyboard
+REM Send a Message in Messanger on MacOS
+REM By kdm
+
+
+
+REM open messages
+DELAY 1000
+GUI SPACE
+DELAY 500
+STRING messages
+DELAY 500
+ENTER
+DELAY 750
+GUI N
+DELAY 500
+
+REM Edit the phone number here
+STRING 7138675309
+DELAY 500
+ENTER
+DELAY 500
+TAB
+DELAY 500
+
+REM edit the message here
+STRING Message to Recipient
+DELAY 500
+ENTER
